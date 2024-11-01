@@ -1,0 +1,4 @@
+#!/bin/bash
+clear
+
+ERL_AFLAGS="-name $1@localhost -setcookie guessnumber" gleam run -m sender --no-print-progress

@@ -1,0 +1,3 @@
+#!/bin/bash
+clear
+ERL_AFLAGS="-name oracle@localhost -setcookie guessnumber" gleam run -m oracle --no-print-progress
